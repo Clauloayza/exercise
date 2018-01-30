@@ -1,0 +1,95 @@
+.box {
+  background: #d7d9da;
+  width: 60%;
+  padding-bottom: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.comments {
+  background: #eea969;
+  border-radius: 10px;
+  padding: 1%;
+  margin-top: 25px;
+}
+
+.titles {
+  color: #000000;
+  font-weight: 800;
+}
+
+.comments .inputs{
+  width: 100%;
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 8px;
+}
+
+.comments button, .comments:hover button {
+  background-color: #818181;
+  border: 2px solid #d6d6d6;
+  width: 30%;
+  border-radius: 10px;
+  height: 25px;
+  color: #f8c67c;
+  font-weight: bold;
+  align-content: center;
+}
+
+.counter {
+  color: black;
+  margin-top: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+.name {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(139, 136, 136);
+  text-transform: uppercase;
+}
+
+.commentuser{
+  color: rgb(133, 130, 130);
+  font-style: oblique;
+  text-transform: capitalize;
+}
+
+.result button, .result:hover button {
+  background: transparent !important;
+  border: none;
+  margin-top: -5px;
+  display: flex;
+
+}
+
+a, a:hover {
+  color: rgb(255, 0, 0);
+  margin-left: -12px;
+  margin-top: -10px;
+}
+
+.result {
+  margin-bottom: 15px;
+}
+.phone{
+  width: 23px;
+}
+.addNumber{
+  font-size: 20px;
+  transform: translateY(-8px);
+}
+.btnNumber{
+  width: 20%;
+  padding-bottom: 10px;
+}
+.sms{
+  margin-top: 9%;
+  
+}
+textarea.form-control{
+  height: 160px;
+}
